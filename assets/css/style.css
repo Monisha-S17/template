@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  
+  font-family: 'Ubuntu',
+  sans-serif;
+  /* font-family: 'Playfair Display',
+  serif;
+   */
+  font-size: 1rem;
+  
+}
+.contianer{
+  background:linear-gradient(to top, #61cfff, #70cff8);
+  width:100%;
+  height: auto;
+  padding: 5%; 
+  
+}
+.sub-contianer{
+  background-image: url(../img/power_line.png);
+  width: 100%;
+  background-size: calc(100%);
+    
+  background-repeat: no-repeat;
+}
+table {
+  border-collapse: collapse;
+}
+table tr{
+   margin: 20px;
+  vertical-align: top;
+}
+.heading{
+  line-height: 1;
+ 
+}
+.heading h1{
+  font-size: 34px;
+  font-weight:900;
+  letter-spacing: -1px;
+  color:#366e89;
+font-family: 'Noto Sans',
+sans-serif;
+
+}
+.heading h2{
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color:#6b7391;
+  padding-left: 35px;
+    padding-bottom: 20px;
+font-family: 'Noto Sans',
+sans-serif;
+}
+
+.newsTemplate{
+  background-color: #fff;
+
+}
+.newsTemplate-left{
+  width: 70%;
+      padding: 25px;
+      box-shadow: #ddd 1px 1px 10px;
+}
+.newsTemplate-right{
+    width: 30%;
+    padding: 25px;
+}
+.newsTemplate-left-content{
+padding: 20px;
+}
+.newsTemplate-left-first{
+  padding-bottom: 20px;
+  border-bottom: #333 dotted 1px;
+  
+}
+.newsTemplate-left-first img{
+  width: 100%;
+  height: 300px;
+  padding-bottom: 20px;
+}
+.newsTemplate-left-second{
+  margin: 20px auto 20px auto;
+}
+.newsTemplate-left-second-ctn{
+  margin-bottom: 40px;
+}
+.newsTemplate-left-second .newsTemplate-left-second-ctn{
+  display: flex;
+  
+  justify-content: space-between;
+}
+.newsTemplate-left-second-img-part{
+margin-right: 25px;
+}
+.newsTemplate-left-second section section img{
+  border: #366e89  solid 2px ;
+  padding: none;
+  
+}
+.newsTemplate-left-second section section h3{
+  color:#366e89;
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+.newsTemplate-left-second section section p{
+  line-height: 1.5;
+}
+@media only screen and (max-width: 1100px) {
+  .newsTemplate-left-second section section h3{
+    font-size: 20px;
+  }
+  .newsTemplate-left-second section section p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .newsTemplate-left-second .newsTemplate-left-second-ctn {
+    flex-direction:column ;
+  }
+  .newsTemplate-left-second section section img {
+    width:100%;
+  }
+}
+@media only screen and (max-width: 900px){
+.newsTemplate-left-first img{
+  height: auto;
+}
+}
+
+/* template Right side align start */
+.newsTemplate-right-ctn{
+  padding: 20px 20px ;
+}
+/* template Right side first section align start */
+.newsTemplate-right-first-part p{
+  margin-bottom:20px ;
+  line-height: 1.5;
+  word-spacing: 2px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+/* template Right side first section align end */
+/* template Right side second section align start */
+.newsTemplate-right-second-part{
+  padding-bottom: 20px;
+}
+.newsTemplate-right-second-part h3{
+  color:#366e89;
+  border-bottom:#366e89 dotted 1px ;
+  padding-bottom:5px ;
+}
+
+.newsTemplate-right-second-part-social-media{
+  margin: 20px auto;
+}
+.newsTemplate-right-second-part-social-media i{
+  font-size: 30px;
+  margin-right: 5px;
+}
+.newsTemplate-right-second-part-cial-media .fa-facebook-official{
+  color:#5873a9;
+}
+/* template Right side second section align end */
+.newsTemplate-right-third-part>h3 {
+  color:#366e89;
+  padding-bottom:5px ;
+  border-bottom: 1px dotted #366e89;
+}
+.newsTemplate-right-third-part ul li{
+  list-style: none;
+}
+
+.newsTemplate-right-third-part ul li{
+  display: flex;
+  margin: 20px auto;
+}
+.newsTemplate-right-third-part ul li section img{
+  margin-right: 15px;
+}
+.newsTemplate-right-third-part ul li section{
+  line-height: 2;
+}
+.newsTemplate-right-third-part ul li section h3{
+  text-decoration: underline;
+}
+@media only screen and (max-width: 800px) {
+  .newsTemplate-right-third-part ul li section {
+    line-height: 1.5;
+    
+  }
+  .newsTemplate-right-third-part ul li section h3{
+    font-size: 16px;
+  }
+  .newsTemplate-right-third-part ul li section p{
+        font-size: 14px;
+  }
+  .newsTemplate-right-first-part p{
+    font-size: 14px;
+  }
+  .newsTemplate-right-second-part-social-media i {
+    font-size: 25px;
+  }
+}
+
+/* template right side align end */
+
+@media only screen and (max-width: 650px){
+  .newsTemplate-right-third-part  h3{
+    font-size: 14px;
+  }
+}
+footer{
+  margin:30px auto;
+}
